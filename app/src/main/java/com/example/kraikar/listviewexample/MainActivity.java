@@ -16,7 +16,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String[] fruits = {"Apple", "banana", "Grapes", "Mango", "Pineapple", "Pomegranate", "Guava", "Orange", "Avocado", "Kiwi"};
+        String[] fruits = {"Apple", "Apricot", "Avocado", "Banana", "Bilberry", "Blackberry", "Blackcurrant",
+                "Blueberry", "Boysenberry", "Currant", "Cherry", "Cherimoya", "Cloudberry", "Coconut",
+                "Cranberry", "Cucumber", "Custard apple", "Damson", "Date", "Dragonfruit", "Durian",
+                "Elderberry", "Feijoa", "Fig", "Goji berry", "Gooseberry", "Grape", "Raisin", "Grapefruit",
+                "Guava", "Honeyberry", "Huckleberry", "Jabuticaba", "Jackfruit", "Jambul", "Jujube",
+                "Juniper berry", "Kiwifruit", "Kumquat", "Lemon", "Lime", "Loquat", "Longan", "Lychee",
+                "Mango", "Marionberry", "Melon", "Cantaloupe", "Honeydew", "Watermelon", "Miracle fruit",
+                "Mulberry", "Nectarine", "Nance", "Olive", "Orange", "Blood orange", "Clementine", "Mandarine",
+                "Tangerine", "Papaya", "Passionfruit", "Peach", "Pear", "Persimmon", "Physalis", "Plantain",
+                "Plum", "Prune (dried plum)", "Pineapple", "Plumcot (or Pluot)", "Pomegranate", "Pomelo",
+                "Purple mangosteen", "Quince", "Raspberry", "Salmonberry", "Rambutan", "Redcurrant",
+                "Salal berry", "Salak", "Satsuma", "Star fruit", "Strawberry", "Tamarillo", "Tamarind",
+                "Tomato", "Ugli fruit", "Yuzu"};
 
         ListAdapter listAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, fruits);
         ListView listViewFruits = (ListView) findViewById(R.id.listViewFruits);
